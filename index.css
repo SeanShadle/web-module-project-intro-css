@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navContainer{
+    margin:5% 0 8% 0;
+    text-align:center;
+}
+
+.navContainer a{
+    display:inline-block;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    padding: 1% 3.5%;
+    font-size: 20px;
+}
+
+.navContainer a:first-child{
+    background-color: #FF764E;
+    color: white;
+}
+
+.navContainer a:nth-child(2){
+    background-color: #5ED3EB;
+    color: white;
+    margin: 0 13% 0 13%;
+}
+
+.navContainer a:nth-child(3){
+    background-color: #FFCD69;
+    color: white;
+}
+
+
+header {
+    display:inline-block;
+    width: 100%;
+}
+
+.headerText{
+    display: inline-block;
+    text-align: center;
+}
+
+header img{
+    display: inline-block;
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    margin-left: 10%;
+}
+
+.headerText h1{
+    display: inline-block;
+    font-family:'Chelsea Market', cursive;;
+    margin-bottom: 10%;
+    margin-left: 8%;
+    font-size: 70px;
+    width: 100%;
+}
+
+.headerBody{
+    margin-bottom: 10%;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.p1{
+    margin-bottom: 6%;
+}
+
+.intro{
+    text-align: center;
+    background-color: #DDB9A3;
+    color: white;
+    margin: 3% 3% 0 3%;
+    padding: 1% 2% 1% 2%;
+    font-size: 25px;
+}
+
+.intro p:first-child{
+    margin-bottom: 2%;
+}
+
+.bulletPoints{
+    display: inline-block;
+    text-align: center;
+}
+
+.bulletPoints img{
+    height: 10%;
+    width: 10%;
+    margin-top: 2%;
+}
+
+.bulletPoints p{
+    margin: 1% 0 4% 0;
+    padding: 0 32% 0 32%;
+}
+
+.bulletPoints span{
+    font-weight: bold;
+}
+
+footer img{
+    width:100%;
+    height:30rem;
+    object-fit:cover;
+    object-position: top;
+
+}
+
+footer {
+    background-color:#F9E7DC;
+    padding-bottom: 1%;
+}
