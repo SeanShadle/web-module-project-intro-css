@@ -47,15 +47,30 @@ html{
     color: white;
 }
 
+.navContainer a:first-child:hover{
+    background-color: #DDB9A3;
+    transition: .5s;
+}
+
 .navContainer a:nth-child(2){
     background-color: #5ED3EB;
     color: white;
     margin: 0 13% 0 13%;
 }
 
+.navContainer a:nth-child(2):hover{
+    background-color: #DDB9A3;
+    transition: .5s;
+}
+
 .navContainer a:nth-child(3){
     background-color: #FFCD69;
     color: white;
+}
+
+.navContainer a:nth-child(3):hover{
+    background-color: #DDB9A3;
+    transition: .5s;
 }
 
 
@@ -113,6 +128,7 @@ header img{
 .bulletPoints{
     display: inline-block;
     text-align: center;
+    margin: 0 25% 0 25%;
 }
 
 .bulletPoints img{
